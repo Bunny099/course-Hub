@@ -4,7 +4,7 @@ const {userModel} = require("../database/db")
 const userRouter = Router();
 
 const jwt = require("jsonwebtoken");
-const {JWT_user_SECRET} = require("..config/")
+const {JWT_user_SECRET} = require("../config")
 const {userAuth} = require("../middlewar/user")
 
 

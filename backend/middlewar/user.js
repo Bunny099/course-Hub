@@ -1,6 +1,6 @@
 
 const jwt = require("jsonwebtoken");
-const {JWT_user_SECRET} = require("..config/")
+const {JWT_user_SECRET} = require("../config")
 
 
 function userAuth(req,res,next){
