@@ -45,12 +45,7 @@ userRouter.post("/signin", async(req, res) => {
 userRouter.get("/seeallpurchases", (req, res) => {
     res.json({ message: "sign up" })
 })
-userRouter.get("/seeallcourses",(req,res)=>{
 
-})
-userRouter.post('/purchasecourse',(req,res)=>{
-    
-})
 module.exports = {
     userRouter: userRouter
 }
